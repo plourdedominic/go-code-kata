@@ -1,0 +1,23 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": ["go mod download", "go get"],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "go get": {
+      "name": "Run",
+      "command": "go mod download",
+      "runAtStart": true
+    },
+    "go build": {
+      "name": "Run",
+      "command": "go build",
+      "runAtStart": true
+    },
+    "go run": {
+      "name": "Run",
+      "command": "go test main_test.go",
+      "runAtStart": true
+    }
+  }
+}

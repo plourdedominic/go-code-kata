@@ -5,6 +5,6 @@ import (
 	"testing"
 )
 
-func TestMain(t *testing.T) {
+func TestReturnTrueFunction(t *testing.T) {
 	assert.True(t, returnTrue())
 }

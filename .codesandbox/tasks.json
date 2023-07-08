@@ -5,13 +5,13 @@
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "go build": {
-      "name": "Run",
+      "name": "Build",
       "command": "go build",
       "runAtStart": true
     },
     "go run": {
-      "name": "Run",
-      "command": "go test ./..",
+      "name": "Test",
+      "command": "go test ./...",
       "runAtStart": true
     }
   }

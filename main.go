@@ -7,5 +7,5 @@ func main() {
 }
 
 func returnTrue() bool {
-	return true
+	return false
 }
